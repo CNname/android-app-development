@@ -1,3 +1,5 @@
 # android-app-development
 
-Exercise One - Hello World
+Exercise One -  Create a first Android application
+
+Screenshot folder contains the images
