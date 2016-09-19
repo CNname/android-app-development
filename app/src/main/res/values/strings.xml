@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"UI Controls "</string>
+    <string name="text_meatballs">Meatballs</string>
+    <string name="text_sausage">Sausage</string>
+    <string name="text_carrots">Carrots</string>
+    <string name="button_select">Select</string>
+    <string name="button_login">Login</string>
+    <string name="text_user">Username</string>
+    <string name="text_pass">Password</string>
+    <string name="gps_title">Input Lat and Long</string>
+</resources>
