@@ -1,9 +1,5 @@
 # android-app-development
 
-Exercise: Basic UI controls -done
-Exercise: Launch a Map with Implicit Intent -done
-Exercise: ListView with custom layout -done
-
 All three exercises all in the same project. It was easier putting them in the same project and uploading it here.
 
 All of them seem to work when running separately but there was some 
