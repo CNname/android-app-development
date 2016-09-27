@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercise Three</string>
+    <string name="action_start">Start</string>
+    <string name="action_reset">Reset</string>
+    <string name="button_checkTime">Let me check</string>
+    <string name="dialog">"I missed the train... again.. When will the next one arrive?"</string>
+    <string name="dialog_clock">He is waiting</string>
+
+</resources>
