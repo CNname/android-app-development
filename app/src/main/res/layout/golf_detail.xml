@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="24dp"
+    android:background="#ffffff"
+    tools:context="fi.jamk.exerciseseven.GolfCourseDetail">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fieldDetailImageView" />
+
+    <TextView
+        android:layout_toRightOf="@+id/fieldDetailImageView"
+        android:layout_alignParentTop="true"
+        android:id="@+id/fieldDetailAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/fieldDetailImageView"
+        android:layout_below="@+id/fieldDetailAddressTextView"
+        android:id="@+id/fieldDetailPhoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/fieldDetailImageView"
+        android:layout_below="@+id/fieldDetailPhoneTextView"
+        android:id="@+id/fieldDetailEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_below="@+id/fieldDetailEmailTextView"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/fieldDetailDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_below="@+id/fieldDetailDescriptionTextView"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/fieldDetailUrlTextView"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorLink="#34a"
+        android:layout_marginTop="24dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_below="@+id/fieldDetailUrlTextView"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/fieldDetailLatLngButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openFieldLocation"
+        android:textColor="#000"
+        android:layout_marginTop="24dp"
+        android:textSize="14sp" />
+
+</RelativeLayout>
